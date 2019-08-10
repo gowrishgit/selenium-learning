@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="45" started-at="2019-02-28T08:48:39Z" finished-at="2019-02-28T08:48:39Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="45" started-at="2019-02-28T08:48:39Z" finished-at="2019-02-28T08:48:39Z">
+      <class name="Seleniumtraining.TC01_SeleniumTest">
+        <test-method status="PASS" signature="BrowserAutomation()[pri:0, instance:Seleniumtraining.TC01_SeleniumTest@7a0ac6e3]" name="BrowserAutomation" duration-ms="9" started-at="2019-02-28T08:48:39Z" finished-at="2019-02-28T08:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserAutomation -->
+        <test-method status="PASS" signature="ElementUI()[pri:0, instance:Seleniumtraining.TC01_SeleniumTest@7a0ac6e3]" name="ElementUI" duration-ms="0" started-at="2019-02-28T08:48:39Z" finished-at="2019-02-28T08:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ElementUI -->
+      </class> <!-- Seleniumtraining.TC01_SeleniumTest -->
+      <class name="Seleniumtraining.TC03_AppiumTest">
+        <test-method status="PASS" signature="IOSApps()[pri:0, instance:Seleniumtraining.TC03_AppiumTest@6fadae5d]" name="IOSApps" duration-ms="0" started-at="2019-02-28T08:48:39Z" finished-at="2019-02-28T08:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOSApps -->
+        <test-method status="PASS" signature="NativeAppAndroid()[pri:0, instance:Seleniumtraining.TC03_AppiumTest@6fadae5d]" name="NativeAppAndroid" duration-ms="0" started-at="2019-02-28T08:48:39Z" finished-at="2019-02-28T08:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NativeAppAndroid -->
+      </class> <!-- Seleniumtraining.TC03_AppiumTest -->
+      <class name="Seleniumtraining.TC02_RESTApiTest">
+        <test-method status="PASS" signature="DeleteTwitter()[pri:0, instance:Seleniumtraining.TC02_RESTApiTest@71be98f5]" name="DeleteTwitter" duration-ms="0" started-at="2019-02-28T08:48:39Z" finished-at="2019-02-28T08:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteTwitter -->
+        <test-method status="PASS" signature="postJira()[pri:0, instance:Seleniumtraining.TC02_RESTApiTest@71be98f5]" name="postJira" duration-ms="1" started-at="2019-02-28T08:48:39Z" finished-at="2019-02-28T08:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postJira -->
+      </class> <!-- Seleniumtraining.TC02_RESTApiTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
