@@ -1,3 +1,6 @@
-GitRepositoriesView.GitDirectories=E\:\\Github\\SeleniumTraining\\.git;
-GitRepositoriesView.GitDirectories.relative=E\:\\Github\\SeleniumTraining\\.git;
+GitRepositoriesView.GitDirectories=
+GitRepositoriesView.GitDirectories.relative=
+RepositorySearchDialogDeepSearch=true
+RepositorySearchDialogSearchPath=D\:\\Selenium Training
+RepositorySearchDialogSkipHidden=true
 eclipse.preferences.version=1

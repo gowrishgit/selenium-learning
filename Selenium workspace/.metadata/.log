@@ -10754,3 +10754,26 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 4 0 2019-08-09 23:13:14.698
+!MESSAGE Could not delete file D:\Selenium Training\Selenium workspace\.git\objects\00\7b8b637fc769aed2ec06ba86b6ff65ff8e26df
+!STACK 0
+java.io.IOException: Could not delete file D:\Selenium Training\Selenium workspace\.git\objects\00\7b8b637fc769aed2ec06ba86b6ff65ff8e26df
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:238)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:188)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:190)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:190)
+	at org.eclipse.egit.ui.internal.repository.tree.command.RemoveCommand.deleteRepositoryContent(RemoveCommand.java:253)
+	at org.eclipse.egit.ui.internal.repository.tree.command.RemoveCommand.access$7(RemoveCommand.java:233)
+	at org.eclipse.egit.ui.internal.repository.tree.command.RemoveCommand$2.runInWorkspace(RemoveCommand.java:175)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.nio.file.AccessDeniedException: D:\Selenium Training\Selenium workspace\.git\objects\00\7b8b637fc769aed2ec06ba86b6ff65ff8e26df
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:274)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1183)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:230)
+	... 8 more
